@@ -1,0 +1,10 @@
+public class StatisticsTester {
+
+	public static void main(String[] args) {
+		
+		Statistics arry = new Statistics();
+		
+		double avg = arry.calcAvg();
+		int min = arry.getMin();
+		int max = arry.getMax();
+		double dev = arry.calcStdDev();
